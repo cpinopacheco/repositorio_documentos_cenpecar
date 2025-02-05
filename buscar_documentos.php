@@ -74,7 +74,7 @@ $cantidad_archivos = count($documentos);
 
 <body>
   <div class="main-container">
-    <form id="filterForm" class="form">
+    <form id="searchForm" class="form">
       <label for="nombre" class="form-label">Buscar Documentos</label>
       <input class="search-input" type="text" name="nombre" placeholder="Nombre de documento..." />
       <div class="filter-container">
@@ -140,7 +140,7 @@ $cantidad_archivos = count($documentos);
     </div>
   </div>
   <script>
-    document.getElementById('filterForm').addEventListener('submit', function(event) {
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
       event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
       const seccion = document.querySelector('select[name="seccion"]').value;
       const ano = document.querySelector('select[name="ano"]').value;

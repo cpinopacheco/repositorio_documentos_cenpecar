@@ -9,6 +9,7 @@ $shouldAnimate = $page != 'cargar_documento' && $page != 'buscar_documentos'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repositorio Documentos Cenpecar</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="preload" href="/assets/img/Cenpecar.jpg" as="image">
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 

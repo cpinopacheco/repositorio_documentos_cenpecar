@@ -50,7 +50,7 @@ div {
 .banner {
   width: 100%;
   height: 550px;
-  background: url("/assets/img/Cenpecar_jv.jpg") center/cover no-repeat;
+  background: url("/assets/img/Cenpecar.jpg") center/cover no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -97,7 +97,7 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   margin: 0;
 }
@@ -495,6 +495,7 @@ select,
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .navbar-link {
   display: flex;
@@ -528,7 +529,7 @@ select,
   margin: 3rem 0;
   font-size: 1.2rem;
   color: var(--primary-color);
-  font-weight: 600;
+  font-weight: 400;
   animation: fadeIn 1s ease-in 0.5s; /* Duración, tipo de animación y retraso */
   animation-fill-mode: forwards; /* Mantener el estado final de la animación */
   visibility: hidden; /* Ocultar el elemento inicialmente */
