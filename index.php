@@ -9,7 +9,6 @@ $shouldAnimate = $page != 'cargar_documento' && $page != 'buscar_documentos'; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repositorio Documentos Cenpecar</title>
   <link rel="stylesheet" href="styles/style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
